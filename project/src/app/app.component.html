@@ -1,0 +1,35 @@
+<!-- Navbar -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light border-bottom">
+  <a class="navbar-brand" href="/#top"><img
+      src="https://themes.3rdwavemedia.com/coderpro/bs4/2.0/assets/images/site-logo.svg" alt="logo"></a>
+  <a href="" class="text-dark"><b>Nathan's</b> Portfolio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-primary" href="https://github.com/nathannewyen">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a href="/#projects" class="nav-link text-primary">
+          Project
+        </a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink]="['/contact']" class="nav-link text-primary">Contact</a>
+      </li>
+    </ul>
+
+
+
+  </div>
+</nav>
+<router-outlet></router-outlet>
