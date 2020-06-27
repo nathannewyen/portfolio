@@ -1,17 +1,18 @@
 const express = require('express');
 const mongoose = require('mongoose');
 
-require('dotenv').config({
-	path: './.env'
-});
+require('dotenv').config();
+var MONGODB_URI = process.env.MONGODB_URL || "mongodb://localhost/Hiring";
 
+const options = {
+	useNewUrlParser: true,
+	useCreateIndex: true,
+	useFindAndModify: false,
+	family: 4 // Use IPv4, skip trying IPv6
+};
 const app = express();
 
-mongoose.connect(process.env.DATABASE_URL, {
-	useUnifiedTopology: true,
-	useNewUrlParser: true,
-	useFindAndModify: true
-});
+mongoose.connect(MONGODB_URI, options)
 
 // Setting
 app.use(express.static(__dirname + '/project/dist/project'));
