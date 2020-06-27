@@ -1,13 +1,10 @@
 const express = require('express');
 const mongoose = require('mongoose');
 
-const dotenv = require('dotenv')
-
-if (process.env.NODE_ENV !== 'production') {
-	dotenv.config()
-}
+require('dotenv').config();
 
 const app = express();
+
 mongoose.connect(process.env.DATABASE_URL, {
 	useUnifiedTopology: true,
 	useNewUrlParser: true,
