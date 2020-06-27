@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 require('dotenv').config()
-DATABASE_URL = "mongodb://localhost:27017/Hiring"
+DATABASE_URL = "mongodb://localhost/Hiring"
 
 
 const app = express();
