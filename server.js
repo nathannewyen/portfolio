@@ -2,8 +2,10 @@ const express = require("express");
 const mongoose = require("mongoose");
 
 const app = express();
-mongoose.connect("mongodb://localhost/Hiring", {
+mongoose.connect(process.env.MONGO_URL, {
+    useUnifiedTopology: true,
     useNewUrlParser: true,
+    useFindAndModify: true,
 });
 
 // Setting
