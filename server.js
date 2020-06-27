@@ -1,8 +1,13 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const dotenv = require('dotenv')
+
 require('dotenv').config()
 DATABASE_URL = "mongodb://localhost/Hiring"
 
+if (process.env.NODE_ENV !== 'production') {
+    dotenv.config()
+}
 
 const app = express();
 mongoose.connect(process.env.DATABASE_URL, {
