@@ -9,9 +9,10 @@ import { HttpClientModule } from "@angular/common/http";
 import { AppComponent } from "./app.component";
 import { HomeComponent } from "./home/home.component";
 import { ContactComponent } from "./contact/contact.component";
+import { MessageComponent } from './message/message.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, ContactComponent],
+  declarations: [AppComponent, HomeComponent, ContactComponent, MessageComponent],
   imports: [
     BrowserModule,
     ReactiveFormsModule,
