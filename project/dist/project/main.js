@@ -58,7 +58,20 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid top\" id=\"top\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col left\">\n        <h1>Hi I'm Nhan Nguyen</h1>\n        <p class=\"about-me\">I'm a full stack web developer based in Dallas, TX.\n\n          I enjoy creating things that live on the internet, whether that be websites, applications, or anything in\n          between. My goal is to always build products that provide pixel-perfect, performance experiences.</p>\n        <button class=\"btn btn-primary\">\n          <a href=\"/#projects\" class=\"text-white\">\n            View Projects <i class=\"fas fa-arrow-circle-right\"></i></a>\n        </button>\n        <button class=\"btn btn-secondary\" [routerLink]=\"['/contact']\">\n          Hire Me <i class=\"fas fa-arrow-circle-right\"></i>\n        </button>\n      </div>\n\n      <div class=\"col right\">\n        <img src=\"https://themes.3rdwavemedia.com/coderpro/bs4/2.0/assets/images/promo-figure-alt.svg\" alt=\"image1\"\n          width=\"300\" />\n      </div>\n    </div>\n  </div>\n</div>\n\n<div class=\"container-fluid bg-light body\">\n  <div class=\"container container-sm text-center\">\n    <h2 class=\"text-center\">Skills Overview</h2>\n    <p class=\"about\">\n      Below is a quick overview of my main technical skill sets and tools I use.\n      Want to find out more about my experience?\n    </p>\n\n    <div class=\"card-deck\">\n      <fieldset class=\"border card\">\n        <legend class=\"text-center bg-primary\">\n          <img src=\"https://themes.3rdwavemedia.com/instance/bs4/assets/images/frontend-icon.svg\" alt=\"frontend\" />\n        </legend>\n        <h4>Frontend</h4>\n        <div class=\"text-justify\">\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> React/Angular</p>\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> Javascript</p>\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> Node.js</p>\n          <p class=\"card-text\">\n            <i class=\"fas fa-check\"></i> Webpack/Gulp/Grunt\n          </p>\n          <p class=\"card-text\">\n            <i class=\"fas fa-check\"></i> HTML/CSS/SASS/LESS\n          </p>\n        </div>\n      </fieldset>\n      <fieldset class=\"border card\">\n        <legend class=\"text-center bg-primary\">\n          <img src=\"https://themes.3rdwavemedia.com/instance/bs4/assets/images/backend-icon.svg\" alt=\"backend\" />\n        </legend>\n        <h4>Backend</h4>\n        <div class=\"text-justify\">\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> Python/Django</p>\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> Ruby/Rails</p>\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> C#</p>\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> SQLite/MySQL</p>\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> MongoDB</p>\n        </div>\n      </fieldset>\n      <fieldset class=\"border card\">\n        <legend class=\"text-center bg-primary\">\n          <img src=\"https://themes.3rdwavemedia.com/instance/bs4/assets/images/other-skills-icon.svg\" alt=\"others\" />\n        </legend>\n        <h4>Others</h4>\n        <div class=\"text-justify\">\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> DevOps</p>\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> Unit Testing</p>\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> UX/Wireframing</p>\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> Sketch/Balsamiq</p>\n          <p class=\"card-text\">\n            <i class=\"fas fa-check\"></i> Wordpress/Shopify\n          </p>\n        </div>\n      </fieldset>\n    </div>\n  </div>\n</div>\n\n<div class=\"container-fluid projects text-center\" id=\"projects\">\n  <h3>Featured Projects</h3>\n  <div class=\"card-deck\">\n    <div class=\"card shadow border-0\">\n      <div class=\"card-body\">\n        <img src=\"https://i.imgur.com/8Sd3xIY.png\" alt=\"dinosaur\" class=\"card-img-top\" />\n        <h4>\n          <a href=\"http://heroku-spotify-project.herokuapp.com\" class=\"text-dark\">Spotify Webapp</a>\n        </h4>\n        <p>\n          <span> Angular </span>\n          <span> MongoDB</span>\n          <span> HTML/CSS </span>\n        </p>\n      </div>\n    </div>\n    <div class=\"card shadow border-0\">\n      <div class=\"card-body\">\n        <img\n          src=\"https://www.thewowstyle.com/wp-content/uploads/2015/01/house-architecture-photography-hd-wallpaper-1920x1200-9237.jpg\"\n          alt=\"real-estate\" class=\"card-img-top\" />\n        <h4>Real Estate Webapp (in progress)</h4>\n        <p>\n          <span> Ruby </span>\n          <span> Rails </span>\n          <span> HTML/CSS </span>\n        </p>\n      </div>\n    </div>\n    <div class=\"card shadow border-0\">\n      <div class=\"card-body\">\n        <img src=\"https://themefisher.com/wp-content/uploads/edd/2019/04/elite-shop.jpg\" alt=\"shop\"\n          class=\"card-img-top\" />\n        <h4>Shop Webapp (in progress)</h4>\n        <p>\n          <span>Python</span>\n          <span>Django</span>\n          <span>HTML/CSS</span>\n        </p>\n      </div>\n    </div>\n  </div>\n</div>\n\n<div class=\"container-fluid bg-light footer\">\n  <div class=\"container text-center\">\n    <img src=\"https://mattfarley.ca/img/mf-avatar.svg\" alt=\"avatar\" width=\"80\" />\n    <h3>Interested in hiring me for your project?</h3>\n    <p class=\"text-justify\">\n      Looking for an experienced full-stack developer to build your web app or\n      ship your software product? To start an initial chat, just drop me an\n      email at <a href=\"https://mail.google.com/mail/?view=cm&fs=1&to=nhan13574@gmail.com\">nhan13574@gmail.com</a> or\n      use the\n      <a href=\"/contact\">form on the contact page</a>.\n    </p>\n    <button class=\"btn btn-primary\" [routerLink]=\"['/contact']\">Let's talk</button>\n\n    <div class=\"social\">\n      <a href=\"https://github.com/nathannewyen\">\n        <span><i class=\"fab fa-github\"></i></span></a>\n      <a href=\"https://www.linkedin.com/in/nhan-nguyen-29098b116/\"><span><i class=\"fab fa-linkedin-in\"></i></span></a>\n      <a href=\"https://mail.google.com/mail/?view=cm&fs=1&to=nhan13574@gmail.com\"><span><i\n            class=\"far fa-envelope\"></i></span></a>\n    </div>\n  </div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid top\" id=\"top\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col left\">\n        <h1>Hi my name is Nhan Nguyen</h1>\n        <p class=\"about-me\">\n          I'm a full stack web developer based in Dallas, TX. I enjoy creating\n          things that live on the internet, whether that be websites,\n          applications, or anything in between. My goal is to always build\n          products that provide pixel-perfect, performance experiences.\n        </p>\n        <button class=\"btn btn-primary\">\n          <a href=\"/#projects\" class=\"text-white\">\n            View Projects <i class=\"fas fa-arrow-circle-right\"></i\n          ></a>\n        </button>\n        <button class=\"btn btn-secondary\" [routerLink]=\"['/contact']\">\n          Hire Me <i class=\"fas fa-arrow-circle-right\"></i>\n        </button>\n      </div>\n\n      <div class=\"col right\">\n        <img\n          src=\"https://themes.3rdwavemedia.com/coderpro/bs4/2.0/assets/images/promo-figure-alt.svg\"\n          alt=\"image1\"\n          width=\"300\"\n        />\n      </div>\n    </div>\n  </div>\n</div>\n\n<div class=\"container-fluid bg-light body\">\n  <div class=\"container container-sm text-center\">\n    <h2 class=\"text-center\">Skills Overview</h2>\n    <p class=\"about\">\n      Below is a quick overview of my main technical skill sets and tools I use.\n      Want to find out more about my experience?\n    </p>\n\n    <div class=\"card-deck\">\n      <fieldset class=\"border card\">\n        <legend class=\"text-center bg-primary\">\n          <img\n            src=\"https://themes.3rdwavemedia.com/instance/bs4/assets/images/frontend-icon.svg\"\n            alt=\"frontend\"\n          />\n        </legend>\n        <h4>Frontend</h4>\n        <div class=\"text-justify\">\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> React/Angular</p>\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> Javascript</p>\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> Node.js</p>\n          <p class=\"card-text\">\n            <i class=\"fas fa-check\"></i> Webpack/Gulp/Grunt\n          </p>\n          <p class=\"card-text\">\n            <i class=\"fas fa-check\"></i> HTML/CSS/SASS/LESS\n          </p>\n        </div>\n      </fieldset>\n      <fieldset class=\"border card\">\n        <legend class=\"text-center bg-primary\">\n          <img\n            src=\"https://themes.3rdwavemedia.com/instance/bs4/assets/images/backend-icon.svg\"\n            alt=\"backend\"\n          />\n        </legend>\n        <h4>Backend</h4>\n        <div class=\"text-justify\">\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> Python/Django</p>\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> Ruby/Rails</p>\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> C#</p>\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> SQLite/MySQL</p>\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> MongoDB</p>\n        </div>\n      </fieldset>\n      <fieldset class=\"border card\">\n        <legend class=\"text-center bg-primary\">\n          <img\n            src=\"https://themes.3rdwavemedia.com/instance/bs4/assets/images/other-skills-icon.svg\"\n            alt=\"others\"\n          />\n        </legend>\n        <h4>Others</h4>\n        <div class=\"text-justify\">\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> DevOps</p>\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> Unit Testing</p>\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> UX/Wireframing</p>\n          <p class=\"card-text\"><i class=\"fas fa-check\"></i> Sketch/Balsamiq</p>\n          <p class=\"card-text\">\n            <i class=\"fas fa-check\"></i> Wordpress/Shopify\n          </p>\n        </div>\n      </fieldset>\n    </div>\n  </div>\n</div>\n\n<div class=\"container-fluid projects text-center\" id=\"projects\">\n  <h3>Featured Projects</h3>\n  <div class=\"card-deck\">\n    <div class=\"card shadow border-0\">\n      <div class=\"card-body\">\n        <img\n          src=\"https://i.imgur.com/8Sd3xIY.png\"\n          alt=\"dinosaur\"\n          class=\"card-img-top\"\n        />\n        <h4>\n          <a\n            href=\"http://heroku-spotify-project.herokuapp.com\"\n            class=\"text-dark\"\n            >Spotify Webapp</a\n          >\n        </h4>\n        <p>\n          <span> Angular </span>\n          <span> MongoDB</span>\n          <span> HTML/CSS </span>\n        </p>\n      </div>\n    </div>\n    <div class=\"card shadow border-0\">\n      <div class=\"card-body\">\n        <img\n          src=\"https://www.thewowstyle.com/wp-content/uploads/2015/01/house-architecture-photography-hd-wallpaper-1920x1200-9237.jpg\"\n          alt=\"real-estate\"\n          class=\"card-img-top\"\n        />\n        <h4>Real Estate Webapp (in progress)</h4>\n        <p>\n          <span> Ruby </span>\n          <span> Rails </span>\n          <span> HTML/CSS </span>\n        </p>\n      </div>\n    </div>\n    <div class=\"card shadow border-0\">\n      <div class=\"card-body\">\n        <img\n          src=\"https://themefisher.com/wp-content/uploads/edd/2019/04/elite-shop.jpg\"\n          alt=\"shop\"\n          class=\"card-img-top\"\n        />\n        <h4>Shop Webapp (in progress)</h4>\n        <p>\n          <span>Python</span>\n          <span>Django</span>\n          <span>HTML/CSS</span>\n        </p>\n      </div>\n    </div>\n  </div>\n</div>\n\n<div class=\"container-fluid bg-light footer\">\n  <div class=\"container text-center\">\n    <img\n      src=\"https://mattfarley.ca/img/mf-avatar.svg\"\n      alt=\"avatar\"\n      width=\"80\"\n    />\n    <h3>Interested in hiring me for your project?</h3>\n    <p class=\"text-justify\">\n      Looking for an experienced full-stack developer to build your web app or\n      ship your software product? To start an initial chat, just drop me an\n      email at\n      <a\n        href=\"https://mail.google.com/mail/?view=cm&fs=1&to=nhan13574@gmail.com\"\n        >nhan13574@gmail.com</a\n      >\n      or use the <a href=\"/contact\">form on the contact page</a>.\n    </p>\n    <button class=\"btn btn-primary\" [routerLink]=\"['/contact']\">\n      Let's talk\n    </button>\n\n    <div class=\"social\">\n      <a href=\"https://github.com/nathannewyen\">\n        <span><i class=\"fab fa-github\"></i></span\n      ></a>\n      <a href=\"https://www.linkedin.com/in/nhan-nguyen-29098b116/\"\n        ><span><i class=\"fab fa-linkedin-in\"></i></span\n      ></a>\n      <a\n        href=\"https://mail.google.com/mail/?view=cm&fs=1&to=nhan13574@gmail.com\"\n        ><span><i class=\"far fa-envelope\"></i></span\n      ></a>\n    </div>\n  </div>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/message/message.component.html":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/message/message.component.html ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid\">\n  <table class=\"table table-bordered\">\n    <thead class=\"thead-light\">\n      <tr>\n        <th>Name</th>\n        <th>Email</th>\n        <th>Message</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr *ngFor=\"let info of messages\">\n        <td>{{info.name}}</td>\n        <td>{{info.email}}</td>\n        <td>{{info.message}}</td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n");
 
 /***/ }),
 
@@ -331,21 +344,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
 /* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/contact/contact.component.ts");
+/* harmony import */ var _message_message_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./message/message.component */ "./src/app/message/message.component.ts");
+
 
 
 
 
 
 const routes = [
-    { path: "", component: _home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"] },
-    { path: "contact", component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_4__["ContactComponent"] },
+    { path: '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"] },
+    { path: 'contact', component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_4__["ContactComponent"] },
+    { path: 'message', component: _message_message_component__WEBPACK_IMPORTED_MODULE_5__["MessageComponent"] }
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
 AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
         imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes)],
-        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]],
+        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
     })
 ], AppRoutingModule);
 
@@ -423,6 +439,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
 /* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/contact/contact.component.ts");
+/* harmony import */ var _message_message_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./message/message.component */ "./src/app/message/message.component.ts");
+
 
 
 
@@ -437,7 +455,7 @@ let AppModule = class AppModule {
 };
 AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-        declarations: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_8__["HomeComponent"], _contact_contact_component__WEBPACK_IMPORTED_MODULE_9__["ContactComponent"]],
+        declarations: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_8__["HomeComponent"], _contact_contact_component__WEBPACK_IMPORTED_MODULE_9__["ContactComponent"], _message_message_component__WEBPACK_IMPORTED_MODULE_10__["MessageComponent"]],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
             _angular_forms__WEBPACK_IMPORTED_MODULE_4__["ReactiveFormsModule"],
@@ -617,6 +635,65 @@ HttpService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         providedIn: "root",
     })
 ], HttpService);
+
+
+
+/***/ }),
+
+/***/ "./src/app/message/message.component.scss":
+/*!************************************************!*\
+  !*** ./src/app/message/message.component.scss ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".container-fluid {\n  margin-top: 100px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9uaGFubmd1eWVuL0Rlc2t0b3AvcG9ydGZvbGlvL3Byb2plY3Qvc3JjL2FwcC9tZXNzYWdlL21lc3NhZ2UuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL21lc3NhZ2UvbWVzc2FnZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGlCQUFBO0FDQ0YiLCJmaWxlIjoic3JjL2FwcC9tZXNzYWdlL21lc3NhZ2UuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY29udGFpbmVyLWZsdWlkIHtcbiAgbWFyZ2luLXRvcDogMTAwcHg7XG59XG4iLCIuY29udGFpbmVyLWZsdWlkIHtcbiAgbWFyZ2luLXRvcDogMTAwcHg7XG59Il19 */");
+
+/***/ }),
+
+/***/ "./src/app/message/message.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/message/message.component.ts ***!
+  \**********************************************/
+/*! exports provided: MessageComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MessageComponent", function() { return MessageComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _http_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../http.service */ "./src/app/http.service.ts");
+
+
+
+let MessageComponent = class MessageComponent {
+    constructor(_httpService) {
+        this._httpService = _httpService;
+        this.messages = [];
+    }
+    ngOnInit() {
+        this.getMsg();
+    }
+    getMsg() {
+        let observable = this._httpService.getUsers();
+        observable.subscribe((data) => {
+            this.messages = data['data'];
+        });
+    }
+};
+MessageComponent.ctorParameters = () => [
+    { type: _http_service__WEBPACK_IMPORTED_MODULE_2__["HttpService"] }
+];
+MessageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-message',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./message.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/message/message.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./message.component.scss */ "./src/app/message/message.component.scss")).default]
+    })
+], MessageComponent);
 
 
 
