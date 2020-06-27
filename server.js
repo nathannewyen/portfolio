@@ -19,4 +19,4 @@ app.use(
 require("./server/config/routes.js")(app);
 
 // Localhost
-app.listen(8000);
+app.listen(process.env.PORT || 8000);
