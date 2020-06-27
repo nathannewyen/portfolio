@@ -1,32 +1,27 @@
-const express = require("express");
-const mongoose = require("mongoose");
-const dotenv = require('dotenv')
+const express = require('express');
+const mongoose = require('mongoose');
 
-require('dotenv').config()
-DATABASE_URL = "mongodb://localhost/Hiring"
-
-if (process.env.NODE_ENV !== 'production') {
-    dotenv.config()
-}
+require('dotenv').config();
+PROD_MONGODB = 'mongodb://localhost/Hiring';
 
 const app = express();
 mongoose.connect(process.env.DATABASE_URL, {
-    useUnifiedTopology: true,
-    useNewUrlParser: true,
-    useFindAndModify: true,
+	useUnifiedTopology: true,
+	useNewUrlParser: true,
+	useFindAndModify: true
 });
 
 // Setting
-app.use(express.static(__dirname + "/project/dist/project"));
+app.use(express.static(__dirname + '/project/dist/project'));
 
 app.use(express.json());
 app.use(
-    express.urlencoded({
-        extended: true,
-    })
+	express.urlencoded({
+		extended: true
+	})
 );
 
-require("./server/config/routes.js")(app);
+require('./server/config/routes.js')(app);
 
 // Localhost
 app.listen(process.env.PORT || 8000);
