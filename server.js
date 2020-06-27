@@ -2,13 +2,14 @@ const express = require('express');
 const mongoose = require('mongoose');
 
 require('dotenv').config();
+
 var MONGODB_URI = process.env.MONGODB_URL || "mongodb://localhost/Hiring";
 
 const options = {
 	useNewUrlParser: true,
 	useCreateIndex: true,
 	useFindAndModify: false,
-	family: 4 // Use IPv4, skip trying IPv6
+	family: 4
 };
 const app = express();
 
