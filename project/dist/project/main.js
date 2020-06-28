@@ -32,7 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- Navbar -->\n<div app-theme>\n  <nav class=\"navbar fixed-top navbar-expand-lg navbar-light bg-light border-bottom\">\n    <a class=\"navbar-brand\" href=\"/#top\"><img\n        src=\"https://themes.3rdwavemedia.com/coderpro/bs4/2.0/assets/images/site-logo.svg\" alt=\"logo\"></a>\n    <a href=\"\" class=\"text-dark\" class=\"logo-nathan\"><b>Nathan's</b> Portfolio</a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"\n      aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n\n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n      <ul class=\"navbar-nav mr-auto\">\n        <li class=\"nav-item active\">\n          <a class=\"nav-link text-primary\" href=\"https://github.com/nathannewyen\">\n            <i class=\"fab fa-github\"></i>\n          </a>\n        </li>\n      </ul>\n\n      <ul class=\"navbar-nav\">\n        <li class=\"nav-item\">\n          <a href=\"/#projects\" class=\"nav-link text-primary\">\n            Project\n          </a>\n        </li>\n        <li class=\"nav-item\">\n          <a [routerLink]=\"['/contact']\" class=\"nav-link text-primary\">Contact</a>\n        </li>\n        <li class=\"nav-item nav-link\">\n          <label class=\"switch\">\n            <input type=\"checkbox\" (click)=\"toggle()\">\n            <span class=\"slider round\"></span>\n          </label>\n          <i class=\"fas fa-adjust\"></i>\n        </li>\n      </ul>\n\n\n\n    </div>\n  </nav>\n  <router-outlet></router-outlet>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Navbar -->\n<div app-theme>\n  <nav class=\"navbar fixed-top navbar-expand-lg navbar-light bg-light border-bottom\">\n    <a class=\"navbar-brand\" href=\"/#top\"><img\n        src=\"https://themes.3rdwavemedia.com/coderpro/bs4/2.0/assets/images/site-logo.svg\" alt=\"logo\"></a>\n    <a href=\"\" class=\"text-dark\" class=\"logo-nathan\"><b>Nathan's</b> Portfolio</a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"\n      aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n\n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n      <ul class=\"navbar-nav mr-auto\">\n        <li class=\"nav-item active\">\n          <a class=\"nav-link text-primary\" href=\"https://github.com/nathannewyen\">\n            <i class=\"fab fa-github\"></i>\n          </a>\n        </li>\n      </ul>\n\n      <ul class=\"navbar-nav\">\n        <li class=\"nav-item\">\n          <a href=\"#projects\" class=\"nav-link text-primary\">\n            Project\n          </a>\n        </li>\n        <li class=\"nav-item\">\n          <a [routerLink]=\"['/contact']\" class=\"nav-link text-primary\">Contact</a>\n        </li>\n        <li class=\"nav-item nav-link\">\n          <label class=\"switch\">\n            <input type=\"checkbox\" (click)=\"toggle()\">\n            <span class=\"slider round\"></span>\n          </label>\n          <i class=\"fas fa-adjust\"></i>\n        </li>\n      </ul>\n\n\n\n    </div>\n  </nav>\n  <router-outlet></router-outlet>\n</div>\n");
 
 /***/ }),
 
@@ -336,13 +336,16 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const routes = [{ path: '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"] }, { path: 'contact', component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_4__["ContactComponent"] }];
+const routes = [
+    { path: "", component: _home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"] },
+    { path: "contact", component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_4__["ContactComponent"] },
+];
 let AppRoutingModule = class AppRoutingModule {
 };
 AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
         imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes)],
-        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
+        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]],
     })
 ], AppRoutingModule);
 
@@ -432,6 +435,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _theme_theme_module__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./theme/theme.module */ "./src/app/theme/theme.module.ts");
 /* harmony import */ var _theme_light_theme__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./theme/light-theme */ "./src/app/theme/light-theme.ts");
 /* harmony import */ var _theme_dark_theme__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./theme/dark-theme */ "./src/app/theme/dark-theme.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+
 
 
 
@@ -460,6 +465,7 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
                 themes: [_theme_light_theme__WEBPACK_IMPORTED_MODULE_11__["lightTheme"], _theme_dark_theme__WEBPACK_IMPORTED_MODULE_12__["darkTheme"]],
                 active: "light",
             }),
+            _angular_router__WEBPACK_IMPORTED_MODULE_13__["RouterModule"],
         ],
         providers: [_http_service__WEBPACK_IMPORTED_MODULE_5__["HttpService"]],
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]],

@@ -1,5 +1,4 @@
 import { Component } from "@angular/core";
-import { HttpService } from "./http.service";
 import { ThemeService } from "./theme/theme.service";
 
 @Component({

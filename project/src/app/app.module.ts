@@ -13,6 +13,7 @@ import { ContactComponent } from "./contact/contact.component";
 import { ThemeModule } from "./theme/theme.module";
 import { lightTheme } from "./theme/light-theme";
 import { darkTheme } from "./theme/dark-theme";
+import { RouterModule, Router } from "@angular/router";
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, ContactComponent],
@@ -26,6 +27,7 @@ import { darkTheme } from "./theme/dark-theme";
       themes: [lightTheme, darkTheme],
       active: "light",
     }),
+    RouterModule,
   ],
   providers: [HttpService],
   bootstrap: [AppComponent],
