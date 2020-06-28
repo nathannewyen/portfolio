@@ -6,8 +6,8 @@ export const darkTheme: Theme = {
     "--background": "#2D2D2D",
     "--bground": "#393939",
     "--on-background": "white",
-    "--primary": "darkorange",
     "--on-primary": "#fff",
-    "--on-box": "#3D3D3D",
+    "--on-box": "#454236",
+    "--on-box-color": "#C4C8CC",
   },
 };
