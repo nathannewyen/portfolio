@@ -1,5 +1,6 @@
 import { Component } from "@angular/core";
 import { HttpService } from "./http.service";
+import { ThemeService } from "./theme/theme.service";
 
 @Component({
   selector: "app-root",
@@ -8,5 +9,14 @@ import { HttpService } from "./http.service";
 })
 export class AppComponent {
   title = "Portfolio";
-  constructor(private _httpService: HttpService) {}
+  constructor(private themeService: ThemeService) {}
+
+  toggle() {
+    const active = this.themeService.getActiveTheme();
+    if (active.name === "light") {
+      this.themeService.setTheme("dark");
+    } else {
+      this.themeService.setTheme("light");
+    }
+  }
 }

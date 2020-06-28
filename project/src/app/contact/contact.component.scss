@@ -12,9 +12,18 @@
   src: local('EuroStyle Normal'), url('../../assets/fonts/EuroStyle Normal.woff') format('woff');
 }
 
+// Darkmode
+#contact {
+  height: 95vh;
+  background: var(--background);
+  color: var(--on-background) !important;
+}
+
+// End Darkmode
+
 @media (min-width: 1025px) {
   .container {
-    margin-top: 80px;
+    margin-top: 68px !important;
     font-family: 'Eurostile';
 
     h1 {
